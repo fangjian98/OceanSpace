@@ -11,9 +11,9 @@ url_thir = 'http://192.168.0.166:9200/index.php?v=experience_content&a=edit'
 browser.get(url_thir)
 # 输入账号和密码登录thir office
 account = browser.find_element_by_name('name')
-account.send_keys('fangjian')
+account.send_keys('yourname')
 pwd = browser.find_element_by_name('pswd')
-pwd.send_keys('123456')
+pwd.send_keys('yourpassword')
 # 查找登录按钮并点击进行登录
 btn_reg = browser.find_element_by_class_name('button')
 btn_reg.click()
