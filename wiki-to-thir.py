@@ -6,22 +6,22 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 
 # 通过webdriver打开浏览器
-# browser = webdriver.Chrome()
-# url_thir = 'http://192.168.0.166:9200/index.php?v=experience_content&a=edit'
-# browser.get(url_thir)
+browser = webdriver.Chrome()
+url_thir = 'http://192.168.0.166:9200/index.php?v=experience_content&a=edit'
+browser.get(url_thir)
 # 输入账号和密码登录thir office
-# account = browser.find_element_by_name('name')
-# account.send_keys('fangjian')
-# pwd = browser.find_element_by_name('pswd')
-# pwd.send_keys('123456')
+account = browser.find_element_by_name('name')
+account.send_keys('fangjian')
+pwd = browser.find_element_by_name('pswd')
+pwd.send_keys('123456')
 # 查找登录按钮并点击进行登录
-# btn_reg = browser.find_element_by_class_name('button')
-# btn_reg.click()
+btn_reg = browser.find_element_by_class_name('button')
+btn_reg.click()
 # 休息5秒
-# time.sleep(5)
+time.sleep(5)
 
 # 从page76开始编辑
-# page = 76
+page = 76
 
 # 从网页上 检查--network--doc--header 查看cookie
 cookie_str = "wikidbUserID=188; wikidbUserName=Fangjian; wikidbToken=4e1e33afd0e6bae8dfdc577624ef0b60; fVEO_2132_saltkey=m7gvz77g; fVEO_2132_lastvisit=1592381455; fVEO_2132_visitedfid=54; wikidb_session=baafpmcltksu3dam5tvn0pii47"
@@ -142,24 +142,24 @@ for r in circle:
         fh.close()
 
         # 通过selenium自动填写title、keyword和content并点击save提交保存
-        # browser.get(url_thir + "&eid=" + str(page))
-        # page += 1
+        browser.get(url_thir + "&eid=" + str(page))
+        page += 1
 
         # 查找到textarea 多行的文本输入 (document.getElementById('').innerHTML)
-        # js = 'var ucode = document.getElementById("mdedit_text"); ucode.value=arguments[0];'
-        # browser.execute_script(js, content)
+        js = 'var ucode = document.getElementById("mdedit_text"); ucode.value=arguments[0];'
+        browser.execute_script(js, content)
 
         # 查到到input的文本框 title keyword
-        # title1 = browser.find_element_by_name('title')
-        # title1.send_keys(title)
-        # keyword = browser.find_element_by_name('keyword')
-        # keyword.send_keys(title)
+        title1 = browser.find_element_by_name('title')
+        title1.send_keys(title)
+        keyword = browser.find_element_by_name('keyword')
+        keyword.send_keys(title)
 
         # 点击保存按钮
-        # time.sleep(3)
-        # submit = browser.find_element_by_xpath('//input[@value = "Save"]')
-        # submit.click()
-        # time.sleep(1)
+        time.sleep(3)
+        submit = browser.find_element_by_xpath('//input[@value = "Save"]')
+        submit.click()
+        time.sleep(1)
 
         print(title)
 
