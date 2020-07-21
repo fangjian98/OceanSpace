@@ -24,7 +24,7 @@ time.sleep(5)
 page = 76
 
 # 从网页上 检查--network--doc--header 查看cookie
-cookie_str = "wikidbUserID=188; wikidbUserName=Fangjian; wikidbToken=4e1e33afd0e6bae8dfdc577624ef0b60; fVEO_2132_saltkey=m7gvz77g; fVEO_2132_lastvisit=1592381455; fVEO_2132_visitedfid=54; wikidb_session=baafpmcltksu3dam5tvn0pii47"
+cookie_str = "wikidbUserID=188; wikidbUserName=fangjian; wikidbToken=4e1e33afd0e6bae8dfdc577624ef0b60; fVEO_2132_saltkey=m7gvz77g; fVEO_2132_lastvisit=1592381455; fVEO_2132_visitedfid=54; wikidb_session=baafpmcltksu3dam5tvn0pii47"
 
 # 把cookie字符串处理成字典，以便接下来使用
 cookies = {}
