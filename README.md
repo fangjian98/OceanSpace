@@ -17,6 +17,13 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 ```
 
+## 完成的任务
+
+- 将html标签替换为markdown标签
+- 保存html to markdown后的文件*.md
+- 下载链接中的文件和图片
+- 自动化打开浏览器并完成内容的填充及提交
+
 ## Chromedriver
 
 使用selenium调用chrome浏览器需要使用chromedriver
