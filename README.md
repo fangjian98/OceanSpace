@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 ```
 
-## chromedriver
+## Chromedriver
 
 使用selenium调用chrome浏览器需要使用chromedriver
 
