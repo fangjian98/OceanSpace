@@ -19,6 +19,7 @@ from selenium import webdriver
 
 ## 完成的任务
 
+- 模拟浏览器请求网页，并获取网页内容
 - 将html标签替换为markdown标签
 - 保存html to markdown后的文件*.md
 - 下载链接中的文件和图片
