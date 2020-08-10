@@ -1,5 +1,9 @@
 # wiki-to-thir
 
+## 使用PyCharm
+- 下载地址：[PyCharm Community](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC)
+- Create a new project
+- Create a new python file
 
 
 ## 使用的库
