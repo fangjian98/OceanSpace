@@ -1,5 +1,7 @@
 # wiki-to-thir
 
+![](https://img.shields.io/github/issues/fangjian98/wiki-to-thir)
+
 ## 使用PyCharm
 - 下载地址：[PyCharm Community](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC)
 - Create New Project
