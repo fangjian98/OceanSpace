@@ -1,6 +1,6 @@
 # wiki-to-thir
 
-<p align="center">
+<p align="left">
   <a>
     <img src="https://img.shields.io/github/issues/fangjian98/wiki-to-thir">
   </a>
