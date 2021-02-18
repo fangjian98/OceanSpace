@@ -1,8 +1,16 @@
 # wiki-to-thir
 
-<img src="https://img.shields.io/github/issues/fangjian98/wiki-to-thir">
-<img src="https://img.shields.io/github/forks/fangjian98/wiki-to-thir">
-<img src="https://img.shields.io/github/stars/fangjian98/wiki-to-thir">
+<p align="center">
+  <a>
+    <img src="https://img.shields.io/github/issues/fangjian98/wiki-to-thir">
+  </a>
+  <a>
+    <img src="https://img.shields.io/github/forks/fangjian98/wiki-to-thir">
+  </a>
+  <a>
+    <img src="https://img.shields.io/github/stars/fangjian98/wiki-to-thir">
+  </a>  
+</p>
 
 ## 使用PyCharm
 - 下载地址：[PyCharm Community](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC)
