@@ -6,11 +6,11 @@
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/fangjian98/OceanSpace)](https://github.com/fangjian98/OceanSpace/pulls)
 [![GitHub forks](https://img.shields.io/github/forks/fangjian98/OceanSpace)](https://github.com/fangjian98/OceanSpace)
 [![GitHub Repo stars](https://img.shields.io/github/stars/fangjian98/OceanSpace)](https://github.com/fangjian98/OceanSpace)
-[![GitHub license](https://img.shields.io/github/license/fangjian98/OceanSpace)](https://github.com/fangjian98/OceanSpace/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/fangjian98/OceanSpace)](https://github.com/fangjian98/OceanSpace/blob/master/LICENSE)
 
 ## Projects
 
-- [wiki-to-thir](https://github.com/fangjian98/OceanSpace/projects/wiki-to-thir)
+- [wiki-to-thir](https://github.com/fangjian98/OceanSpace/tree/master/projects/wiki-to-thir)
 
 ## License
 
