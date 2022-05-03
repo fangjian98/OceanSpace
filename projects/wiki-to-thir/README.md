@@ -1,5 +1,7 @@
 # wiki-to-thir
 
+👉 Convert wiki to markdown and save all to markdown file,then upload to other website.
+
 1. 将wiki文档在网页上按格式爬取保存为markdown格式并保存为文件，同时下载图片及文件资源。
 2. 将保存下来的markdown资料文件，上传到另一网站。
 
