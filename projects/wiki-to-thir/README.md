@@ -32,11 +32,23 @@ from selenium import webdriver
 
 ## Chromedriver
 
+**Windows**
+
 使用selenium调用chrome浏览器需要使用chromedriver
 
 - 首先需要下载Chromedriver载后得到的是一个chromedriver.exe文件，chromedriver下载地址:
 http://npm.taobao.org/mirrors/chromedriver/
 
 - 将chromedriver.exe拷贝到chrome浏览器（C:\Program Files (x86)\Google\Chrome\Application）、python（C:\Program Files (x86)\Python36-32）安装根目录的路径下即可，这样就可以使用selenium启动谷歌Chrome浏览器
+
+**Linux**
+
+[chromedriver](https://chromedriver.chromium.org/downloads)
+
+```
+unzip chromedriver_linux64.zip
+mv chromedriver /usr/bin/
+chmod +x /usr/bin/chromedriver
+```
 
 Tip：使用的chromedriver要和chrome浏览器的版本需要匹配，否则会出现错误。
