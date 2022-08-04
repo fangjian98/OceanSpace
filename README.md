@@ -14,8 +14,7 @@
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [wiki-to-thir](https://github.com/fangjian98/OceanSpace/tree/master/projects/wiki-to-thir) | 👉 Convert wiki to markdown and save all to markdown file,then upload to other website. | [![piwheels](https://img.shields.io/pypi/v/beautifulsoup4?label=beautifulsoup4)](https://pypi.org/project/beautifulsoup4/) [![PyPI](https://img.shields.io/pypi/v/selenium?label=selenium)](https://pypi.org/project/selenium/) [![PyPI](https://img.shields.io/pypi/v/requests?label=requests)](https://pypi.org/project/requests/) [![PyPI](https://img.shields.io/pypi/v/urllib3?label=urllib3)](https://pypi.org/project/urllib3/) |
 | [image-classification](https://github.com/fangjian98/OceanSpace/tree/master/projects/image-classification) | 👉 Image classification with TensorFlow Lite Model Maker.     | [![PyPI](https://img.shields.io/pypi/v/tensorflow?label=tensorflow)](https://pypi.org/project/tensorflow/) [![PyPI](https://img.shields.io/pypi/v/tflite-model-maker?label=tflite-model-maker)](https://pypi.org/project/tflite-model-maker/) |
-
-
+| [deep-learning](https://github.com/fangjian98/OceanSpace/tree/master/projects/deep-learning) | 👉 Deep Learning samples.                                     | [![PyPI](https://img.shields.io/pypi/v/tensorflow?label=tensorflow)](https://pypi.org/project/tensorflow/) |
 
 ## License
 
